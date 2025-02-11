@@ -16,6 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $firstname = isset($_POST['firstname']) ? $_POST['firstname'] : '';
     $lastname = isset($_POST['lastname']) ? $_POST['lastname'] : '';
     $spr = isset($_POST['spr']) ? $_POST['spr'] : '';
+    
     $phone = isset($_POST['phone']) ? $_POST['phone'] : '';
     $gender = isset($_POST['gender']) ? $_POST['gender'] : '';
     $year = isset($_POST['year']) ? $_POST['year'] : '';
